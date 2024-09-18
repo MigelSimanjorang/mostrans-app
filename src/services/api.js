@@ -1,8 +1,8 @@
-// src/App.js
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import CharactersList from './pages/CharactersList';
-import CharacterDetail from './pages/CharacterDetail';
+import CharacterDetail from '../pages/CharacterDetail';
 import CharacterByLocation from './pages/CharacterByLocation';
+
 
 function App() {
   return (
